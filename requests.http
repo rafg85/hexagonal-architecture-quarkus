@@ -1,0 +1,10 @@
+GET http://localhost:8080/cards
+
+###
+
+POST http://localhost:8080/cards
+Content-Type: application/json
+
+{
+    "card_name": "lightning bolt"
+}
